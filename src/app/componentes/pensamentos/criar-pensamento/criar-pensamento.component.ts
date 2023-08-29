@@ -11,11 +11,6 @@ import { FormBuilder, FormGroup } from '@angular/forms';
 })
 export class CriarPensamentoComponent implements OnInit {
 
-  pensamento: Pensamento= {
-    conteudo: '',
-    autoria: '',
-    modelo: 'modelo1'
-  }
 
   formulario!: FormGroup;
 
@@ -24,19 +19,19 @@ export class CriarPensamentoComponent implements OnInit {
   ngOnInit(): void {
     this.formulario = this.formBuilder.group({
       conteudo: ['Formulário reativo'],
-      autoria: [],
+      autoria: ['Angular'],
       modelo: ['modelo1']
     })
   }
 
   criarPensamento() {
-    this.service.criar(this.pensamento).subscribe(() => {
+    this.service.criar(this.formulario.value).subscribe(() => {
       this.router.navigate(['/listarPensamento'])
     })
   }
 
   cancelar(){
-    this.service.criar(this.pensamento).subscribe(() => {
+    this.service.criar(this.formulario.value).subscribe(() => {
       this.router.navigate(['/listarPensamento'])
     })
   }
