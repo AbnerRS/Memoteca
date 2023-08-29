@@ -19,9 +19,11 @@ As seguintes ferramentas foram usadas na construção do projeto:
 
 ##### Features
 
-- [x] Desenvolvimento de uma Aplicação Web
-- [x] CRUD (Create, Read, Update e Delete) 
-- [x] Validações
+- [x] Compreender os conceitos de arquitetura do framework
+- [x] Desenvolver CRUD usando o Angular
+- [x] Evoluir a aplicação com novas funcionalidades e refatoração de código
+- [x] Trabalhar com formulários orientados a templates, uso de diretivas e comunicação entre componentes
+- [x] Programar de forma reativa utilizando a biblioteca RxJS
 
 ##### Aprendizado 1º Etapa do Projeto
 
