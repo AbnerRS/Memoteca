@@ -1,3 +1,11 @@
+.mensagem__erro {
+  font-size: 12px;
+  margin-left: 5px;
+  color: red;
+  margin-top: -25px;
+  margin-bottom: 20px;
+}
+
 .acoes {
   display: flex;
   justify-content: center;
@@ -133,3 +141,5 @@ input[type='radio']:checked+.custom-radio {
 input[type='radio']:checked+.custom-radio span {
   background: #154580;
 }
+
+
