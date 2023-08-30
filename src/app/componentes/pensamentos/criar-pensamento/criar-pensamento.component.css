@@ -134,6 +134,12 @@ span {
   border-radius: 50%;
 }
 
+.botao__desabilitado {
+  margin: 5px;
+  margin-top: 70px;
+  width: 200px;
+}
+
 input[type='radio']:checked+.custom-radio {
   border-color: #154580;
 }

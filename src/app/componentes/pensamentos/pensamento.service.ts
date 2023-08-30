@@ -12,7 +12,7 @@ export class PensamentoService {
 
   constructor(private http: HttpClient) { }
 
-  listar(){
+  listar() : Observable<Pensamento[]> {
     return this.http.get<Pensamento[]>(this.API)
   }
 
