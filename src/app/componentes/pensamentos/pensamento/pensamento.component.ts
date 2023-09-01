@@ -12,7 +12,8 @@ export class PensamentoComponent implements OnInit {
     id: 0,
     conteudo: 'Angular é vida!',
     autoria: 'Abner',
-    modelo: 'modelo3'
+    modelo: 'modelo3',
+    favorito: false
 
   }
 
@@ -26,6 +27,13 @@ export class PensamentoComponent implements OnInit {
       return 'pensamento-g'
     }
     return 'pensamento-p'
+  }
+
+  mudarIconeFavorito(): string {
+    if(this.pensamento.favorito == false){
+      return 'inativo'
+    }
+    return 'ativo'
   }
 
 }

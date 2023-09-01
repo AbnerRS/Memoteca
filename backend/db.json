@@ -4,42 +4,49 @@
       "id": 1,
       "conteudo": "Que bom que você veio",
       "autoria": "Dev1",
-      "modelo": "modelo1"
+      "modelo": "modelo1",
+      "favorito": true
     },
     {
       "id": 2,
       "conteudo": "Pensamento 2",
       "autoria": "Dev 1",
-      "modelo": "modelo3"
+      "modelo": "modelo3",
+      "favorito": false
     },
     {
       "id": 3,
       "conteudo": "Angular é massa",
       "autoria": "Dev3",
-      "modelo": "modelo3"
+      "modelo": "modelo3",
+      "favorito": false
     },
     {
       "conteudo": "Estudando Angular",
       "autoria": "estudante",
       "modelo": "modelo2",
+      "favorito": false,
       "id": 4
     },
     {
       "conteudo": "Formulário reativo",
       "autoria": "Angular",
       "modelo": "modelo1",
+      "favorito": false,
       "id": 6
     },
     {
       "conteudo": "Pensamento de teste",
       "autoria": "estudante",
       "modelo": "modelo1",
+      "favorito": false,
       "id": 7
     },
     {
       "conteudo": "Estudando Angular",
       "autoria": "DEV angular",
       "modelo": "modelo2",
+      "favorito": false,
       "id": 9
     }
   ]
