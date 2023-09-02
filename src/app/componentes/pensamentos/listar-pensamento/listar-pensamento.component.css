@@ -24,6 +24,16 @@
   justify-content: center;
 }
 
+.botoes {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.botoes button {
+  margin-left: 10px;
+  margin-right: 2px;
+}
+
 .buscar-pensamentos {
   background: #F8F9FE;
   box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.1);

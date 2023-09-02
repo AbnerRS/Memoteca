@@ -12,14 +12,14 @@
       "conteudo": "Pensamento 2",
       "autoria": "Dev 1",
       "modelo": "modelo3",
-      "favorito": false
+      "favorito": true
     },
     {
       "id": 3,
       "conteudo": "Angular é massa",
       "autoria": "Dev3",
       "modelo": "modelo3",
-      "favorito": false
+      "favorito": true
     },
     {
       "conteudo": "Estudando Angular",
