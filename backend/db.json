@@ -53,7 +53,7 @@
       "conteudo": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. ",
       "autoria": "Lorem ipsum",
       "modelo": "modelo2",
-      "favorito": true,
+      "favorito": false,
       "id": 10
     },
     {
