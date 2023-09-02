@@ -25,21 +25,21 @@
       "conteudo": "Estudando Angular",
       "autoria": "estudante",
       "modelo": "modelo2",
-      "favorito": false,
+      "favorito": true,
       "id": 4
     },
     {
       "conteudo": "Formulário reativo",
       "autoria": "Angular",
       "modelo": "modelo1",
-      "favorito": false,
+      "favorito": true,
       "id": 6
     },
     {
       "conteudo": "Pensamento de teste",
       "autoria": "estudante",
       "modelo": "modelo1",
-      "favorito": false,
+      "favorito": true,
       "id": 7
     },
     {
@@ -48,6 +48,20 @@
       "modelo": "modelo2",
       "favorito": false,
       "id": 9
+    },
+    {
+      "conteudo": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. ",
+      "autoria": "Lorem ipsum",
+      "modelo": "modelo2",
+      "favorito": true,
+      "id": 10
+    },
+    {
+      "conteudo": "Lorem ipsum",
+      "autoria": "Lorem ipsum",
+      "modelo": "modelo3",
+      "favorito": false,
+      "id": 11
     }
   ]
 }
