@@ -39,7 +39,7 @@
       "conteudo": "Pensamento de teste",
       "autoria": "estudante",
       "modelo": "modelo1",
-      "favorito": true,
+      "favorito": false,
       "id": 7
     },
     {
