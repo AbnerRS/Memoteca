@@ -7,7 +7,7 @@
 
 As seguintes ferramentas foram usadas na construção do projeto:
 
-- Angular CLI
+- Angular 14
 - VSCode 
 - Github
 
